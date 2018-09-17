@@ -12,7 +12,7 @@ int main ()
     printf("Media: %.1f\n",media);   
     
     if (media>=6) {
-        printf("Parabens, vc foi aprovado.\n");
+        printf("Parabens, voce foi aprovado.\n");
     }
     else {
         printf("Infelizmente voce foi reprovado.\n");
