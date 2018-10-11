@@ -2,7 +2,7 @@
 
 
 float nota1, nota2, nota3, nota4, media;
-int main ()
+void main ()
 {
     printf("\nInforme a primeira nota..: ");
     scanf("%f",&nota1);
@@ -26,5 +26,5 @@ int main ()
         else {
         printf("Voce esta reprovado\n");
         }
-return 0;
+
 }
