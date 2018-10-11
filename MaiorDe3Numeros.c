@@ -1,5 +1,5 @@
 #include<stdio.h> 
-int main() {
+void main() {
 
 int n1,n2,n3;
 
@@ -19,10 +19,6 @@ scanf("%d",&n3);
         else 
         if (n3>n2&&n3>n1){
         printf("O numero maior e %d\n",n3);}
-
-
-
-
 
 
 }
