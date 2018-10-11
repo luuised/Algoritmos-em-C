@@ -25,7 +25,6 @@ printf("3 - Produto entre os numeros\n");
 printf("4 - Divisão do primeiro pelo segundo\n");
 fflush(stdin);
 scanf("%s",&resposta);
-fflush(stdin);
  
 //condições
 
