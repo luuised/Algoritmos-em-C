@@ -104,7 +104,7 @@ inicio
    escreval("|        |")
    escreval("|        |")
    escreval("|        |")
-   escreval("| (¬.¬)  |")
+   escreval("| (Â¬.Â¬)  |")
    escreval("|        |")
    escreval("|========|")
    timer 500
@@ -124,7 +124,7 @@ inicio
    escreval("|        |")
    escreval("|        |")
    escreval("|        |")
-   escreval("| (¬_¬)  |")
+   escreval("| (Â¬_Â¬)  |")
    escreval("|        |")
    escreval("|========|")
 fimprocedimento
@@ -168,7 +168,7 @@ inicio
    escreval("|    *   |")
    escreval("|    #   |")
    escreval("|        |")
-   escreval("| (¬.¬)  |")
+   escreval("| (Â¬.Â¬)  |")
    escreval("|        |")
    escreval("|========|")
    timer 500
@@ -188,7 +188,7 @@ inicio
    escreval("|     *  |")
    escreval("|    #*  |")
    escreval("|        |")
-   escreval("| (¬_¬)  |")
+   escreval("| (Â¬_Â¬)  |")
    escreval("|        |")
    escreval("|========|")
 fimprocedimento
@@ -242,7 +242,7 @@ Inicio
    escreval("=*===*======*====*========*===*==")
    escreval("==*==*====PET=VIRTUAL===*======*=")
    escreval("=*=====*=======*============*==*=")
-   escreval("====*====TOMAGOTCHINHO=*=======*=")
+   escreval("====*====TAMAGOTCHINHO=*=======*=")
    escreval("*=====*====*===*=========*===*===")
    escreval("*==*====*===*=====*========*=====")
    timer 3000
@@ -264,15 +264,15 @@ Inicio
       se bexiga>=4 entao
          limpatela
          coco
-         escreval("Fez cocô")
+         escreval("Fez cocÃ´")
       fimse
       se diversao <=0 entao
          limpatela
          entediado
-         escreval("Está entediado")
+         escreval("EstÃ¡ entediado")
       fimse
       
-      escreval("Sua fome é: ",fome," e seu sono é: ",sono,".")
+      escreval("Sua fome Ã©: ",fome," e seu sono Ã©: ",sono,".")
       escreval("O que deseja fazer?")
       escreval("1-comer")
       escreval("2-dormir")
@@ -306,11 +306,11 @@ Inicio
          diversao<-5
       caso 5
          normal
-         escreval("Não deixe de comer e descansar")
+         escreval("NÃ£o deixe de comer e descansar")
       caso 6
          fimalgoritmo
       outrocaso
-         escreval("Não se esqueça de comer e descansar")
+         escreval("NÃ£o se esqueÃ§a de comer e descansar")
       fimescolha
 
 fimenquanto
